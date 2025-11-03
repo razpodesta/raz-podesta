@@ -1,6 +1,11 @@
 packages:
   - packages/*
+  - portal-web
 autoInstallPeers: true
 onlyBuiltDependencies:
+  - '@parcel/watcher'
   - '@swc/core'
+  - esbuild
   - nx
+  - sharp
+  - unrs-resolver
